@@ -1,0 +1,13 @@
+body, html {
+  margin: 0;
+  background: lemonChiffon;
+  padding: 25px;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: cursive;
+}
+
+p {
+  font-family: fantasy;
+}
