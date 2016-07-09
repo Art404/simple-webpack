@@ -35,5 +35,10 @@ module.exports = {
     }),
     new FaviconsWebpackPlugin(path.resolve(__dirname, './assets/favicon.png')),
     loadCSS
-  ]
+  ],
+  devtool: "#inline-source-map",
+  devServer: {
+    contentBase: path.resolve(__dirname, './build'),
+    host: "0.0.0.0"
+  }
 };
